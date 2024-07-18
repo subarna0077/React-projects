@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
+
 
 const Player = () => {
+    const name:any = useRef();
+    const [activeName, setActiveName] = useState();
+
+    const handleClick = ()=> {
+        setActiveName(name.current.value)
+    }
+
   return (
    <section id="player">
-    <h1>Welcome, unknown stranger</h1>
+    <h1>Welcome,{activeName ? activeName: 'Unknown Stranger'}</h1>
     <p>
-        <input type="text" />
-        <button>Set Name</button>
+        <input type="text"
+         ref={name}/>
+        <button onClick={handleClick}>Set Name</button>
       </p>
 
    </section>

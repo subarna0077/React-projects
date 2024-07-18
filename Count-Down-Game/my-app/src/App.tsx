@@ -6,9 +6,9 @@ function App() {
     <div className="App">
      <Player/>
      <TimerChallenge title="Easy" targetTime={1}/>
-     <TimerChallenge title="Easy" targetTime={1}/>
-     <TimerChallenge title="Easy" targetTime={1}/>
-     <TimerChallenge title="Easy" targetTime={1}/>
+     <TimerChallenge title="Easy" targetTime={3}/>
+     <TimerChallenge title="Easy" targetTime={5}/>
+     <TimerChallenge title="Easy" targetTime={10}/>
     </div>
   );
 }
