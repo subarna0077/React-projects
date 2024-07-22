@@ -1,0 +1,23 @@
+#preview {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 40vw;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview-header h1 {
+    text-transform: uppercase;
+}
+
+.preview-delete {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+
+}

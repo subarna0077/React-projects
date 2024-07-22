@@ -1,0 +1,41 @@
+.side-bar {
+    background: rgba(20, 19, 19, 0.97);
+    width: 20%;
+    border-radius: 20px;
+    height: 90vh;
+    overflow: hidden;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.side-bar button {
+    width: 104px;
+    height: 40px;
+    background: rgb(48, 45, 45);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.side-bar button:hover {
+    background: rgb(48, 45, 45, 0.7);
+}
+
+ .list-items {
+   margin: 20px 0px;
+   padding: 0;  
+}
+
+.list-item {
+    list-style: none;
+    background-color: rgb(48, 45, 45);
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

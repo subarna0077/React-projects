@@ -1,0 +1,43 @@
+#new-project {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.input-wrapper {
+    margin-top: 30px;
+}
+
+.input-wrapper p{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-wrapper p label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.input-wrapper p input, textarea {
+    width: 300px;
+    padding: 10px;
+}
+textarea { 
+    resize: none;
+}
+
+.project-buttons button{
+    margin-left: 5px;
+    height: 30px;
+    width: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.project-save-button {
+    background-color: rgba(20, 19, 19, 0.97);
+    color:white;
+    border-radius: 5px;
+}
