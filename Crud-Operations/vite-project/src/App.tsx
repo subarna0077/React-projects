@@ -10,10 +10,14 @@ function App() {
     setIsLoggedIn(true);
   }
 
+  const onAddStudent= ()=> {
+    
+  }
+
   return (
     <>
    {!isLoggedIn && <LogIn onLogIn={onLogIn}/>}
-   {isLoggedIn && <DashBoard/>}
+   {isLoggedIn && <DashBoard handleAddStudent={onAddStudent}/>}
     </>
   )
 }
